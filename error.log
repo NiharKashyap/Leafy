@@ -1,0 +1,450 @@
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    noImgb64 = base64.b64encode(noImgPath.file.read()).decode('ascii')
+AttributeError: 'str' object has no attribute 'file'
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    noImgb64 = base64.b64encode(noImgPath.read()).decode('ascii')
+AttributeError: 'str' object has no attribute 'read'
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    noImgb64 = base64.b64encode(noImgPath).decode('ascii')
+  File "C:\Users\ASUS\Anaconda3\lib\base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    noImgb64 = base64.b64encode(noImgPath).decode('ascii')
+  File "C:\Users\ASUS\Anaconda3\lib\base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    noImgb64 = base64.b64encode(noImgPath).decode('ascii')
+  File "C:\Users\ASUS\Anaconda3\lib\base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    noImgb64 = base64.b64encode(noImgPath).decode('ascii')
+  File "C:\Users\ASUS\Anaconda3\lib\base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.security.SuspiciousFileOperation:The joined path (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\no-bg.jpg) is located outside of the base path component (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\media)
+WARNING:django.request:Bad Request: /media/C:/Users/ASUS/Desktop/code/6 th sem/DiseaseDetect/no-bg.jpg
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.security.SuspiciousFileOperation:The joined path (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\no-bg.jpg) is located outside of the base path component (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\media)
+WARNING:django.request:Bad Request: /media/C:/Users/ASUS/Desktop/code/6 th sem/DiseaseDetect/no-bg.jpg
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 82, in index
+    rmbg.remove_background_from_base64_img(b64_image)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 82, in index
+    rmbg.remove_background_from_base64_img(b64_image)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.security.SuspiciousFileOperation:The joined path (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\no-bg.jpg) is located outside of the base path component (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\media)
+WARNING:django.request:Bad Request: /media/C:/Users/ASUS/Desktop/code/6 th sem/DiseaseDetect/no-bg.jpg
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 85, in index
+    b64Bg = base64.b64encode(noImgPath.read()).decode('ascii')
+AttributeError: 'str' object has no attribute 'read'
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.security.SuspiciousFileOperation:The joined path (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\no-bg.jpg) is located outside of the base path component (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\media)
+WARNING:django.request:Bad Request: /media/C:/Users/ASUS/Desktop/code/6 th sem/DiseaseDetect/no-bg.jpg
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /DiseaseDetect/no-bg.jpg
+WARNING:django.request:Not Found: /DiseaseDetect/no-bg.jpg
+ERROR:django.security.SuspiciousFileOperation:The joined path (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\no-bg.jpg) is located outside of the base path component (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\media)
+WARNING:django.request:Bad Request: /media/C:/Users/ASUS/Desktop/code/6 th sem/DiseaseDetect/no-bg.jpg
+WARNING:django.request:Not Found: /DiseaseDetect/no-bg.jpg
+ERROR:django.security.SuspiciousFileOperation:The joined path (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\no-bg.jpg) is located outside of the base path component (C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\media)
+WARNING:django.request:Bad Request: /media/C:/Users/ASUS/Desktop/code/6 th sem/DiseaseDetect/no-bg.jpg
+WARNING:django.request:Not Found: /DiseaseDetect/no-bg.jpg
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /DiseaseDetect/no-bg.jpg
+WARNING:django.request:Not Found: /DiseaseDetect/no-bg.jpg
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ASUS\Anaconda3\Lib\site-packages\removebg\removebg.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py", line 84, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /media/media/brown-spot-of-rice-rice-1553782802_r4fUmr6.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-of-rice-rice-1553782802_r4fUmr6.jpg
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /media/media/pra.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-4_swbyBhI.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-of-rice-rice-1553782802_BFQ4b64.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-4_Kbltf1A.jpg
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6 th sem\DiseaseDetect\potato\views.py changed, reloading.
+WARNING:django.request:Not Found: /media/media/pra.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-4_swbyBhI.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-of-rice-rice-1553782802_BFQ4b64.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-of-rice-rice-1553782802_BFQ4b64.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-4_swbyBhI.jpg
+WARNING:django.request:Not Found: /media/media/pra.jpg
+WARNING:django.request:Not Found: /media/media/pra.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-4_swbyBhI.jpg
+WARNING:django.request:Not Found: /media/media/pra.jpg
+WARNING:django.request:Not Found: /media/media/brown-spot-4_swbyBhI.jpg
+WARNING:django.request:Not Found: /media/media/pra.jpg
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\grpc\_channel.py", line 533, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\grpc\_channel.py", line 467, in _end_unary_response_blocking
+    raise _Rendezvous(state, None, None, deadline)
+grpc._channel._Rendezvous: <_Rendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Name resolution failure"
+	debug_error_string = "{"created":"@1584337787.779000000","description":"Failed to create subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":2721,"referenced_errors":[{"created":"@1584337787.779000000","description":"Name resolution failure","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3026,"grpc_status":14}]}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6thSem\DiseaseDetect\potato\views.py", line 134, in chat
+    response = session_client.detect_intent(session=session, query_input=query_input)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\dialogflow_v2\gapic\sessions_client.py", line 323, in detect_intent
+    request, retry=retry, timeout=timeout, metadata=metadata
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\google\api_core\gapic_v1\method.py", line 143, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\google\api_core\retry.py", line 286, in retry_wrapped_func
+    on_error=on_error,
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\google\api_core\retry.py", line 184, in retry_target
+    return target()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\google\api_core\timeout.py", line 214, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\google\api_core\grpc_helpers.py", line 59, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.ServiceUnavailable: 503 Name resolution failure
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6thSem\DiseaseDetect\potato\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\Desktop\code\6thSem\DiseaseDetect\potato\views.py", line 48, in main
+    return render(request, 'main.html')
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ASUS\Anaconda3\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 37: 'static', expected 'endblock'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ASUS\Desktop\code\6thSem\DiseaseDetect\potato\urls.py changed, reloading.
+INFO:django.request:OK: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x000001D503407438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.remove.bg', port=443): Max retries exceeded with url: /v1.0/removebg (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001D503407438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 142, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 70, in remove_background_from_base64_img
+    headers={'X-Api-Key': self.__api_key}
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.remove.bg', port=443): Max retries exceeded with url: /v1.0/removebg (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001D503407438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py changed, reloading.
+INFO:django.request:OK: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 144, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py changed, reloading.
+INFO:django.request:OK: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 144, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+INFO:django.request:OK: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 144, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\diseaseDetection\settings.py changed, reloading.
+ERROR:django.request:Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 144, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 144, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\diseaseDetection\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py changed, reloading.
+INFO:django.request:OK: /detection/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lenovo\PycharmProjects\LeafyAI(Test)\potato\views.py", line 142, in index
+    rmbg.remove_background_from_base64_img(b64_image, file_name)
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\removebg\removebg.py", line 72, in remove_background_from_base64_img
+    response.raise_for_status()
+  File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
