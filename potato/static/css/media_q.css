@@ -411,6 +411,10 @@
         box-shadow: 5px 7px 19px -8px rgba(0, 0, 0, 0.75);
     }
 
+    .inputfile-2 + label {
+        width: 40% !important;
+    }
+
     .inputfile + label {
         font-size: 16px !important;
         /* 20px */

@@ -448,3 +448,33 @@ Traceback (most recent call last):
   File "C:\Users\Lenovo\.conda\envs\tensor\lib\site-packages\requests\models.py", line 941, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.remove.bg/v1.0/removebg
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+ERROR:django.request:Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py", line 160, in index
+    prediction = prediict(noImgPath)
+  File "E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py", line 58, in prediict
+    img = image.load_img(img, target_size=(224, 224))
+  File "C:\Users\prach\AppData\Roaming\Python\Python37\site-packages\keras_preprocessing\image\utils.py", line 110, in load_img
+    img = pil_image.open(path)
+  File "C:\Users\prach\anaconda3\lib\site-packages\PIL\Image.py", line 2809, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\code\\6th Sem\\nihar 6th sem\\Leafy\\vomtrrhxam.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prach\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\prach\anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\prach\anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py", line 166, in index
+    prediction = prediict(imag)
+  File "E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py", line 67, in prediict
+    result = str(classes[np.argmax(np.array(prediction[0]))])
+IndexError: list index out of range
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py changed, reloading.
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'

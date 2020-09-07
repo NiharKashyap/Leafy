@@ -157,25 +157,29 @@
 
         <div class="his-con">
             {% if user.is_authenticated %}
-                {% for histories in history %}
-                    <div class="his_div">
-                        <a href="fullResult/{{histories.result}}/"><img src="{{histories.img.url}}" alt=""></a>
-                        <a class="hr" href="fullResult/{{histories.result}}/">{{histories.result}}</a>
-                    </div>
-                {% endfor %}
-                <div class="show-all-history">
-                    <h4 onclick="showAllHistory()">Show all</h4>
-                </div>
-                <div class="show-less-history">
-                    <h4 onclick="showLessHistory()">Show less</h4>
-                </div>
+            {% if history %}
+            {% for histories in history %}
+            <div class="his_div">
+                <a href="fullResult/{{histories.result}}/"><img src="{{histories.img.url}}" alt=""></a>
+                <a class="hr" href="fullResult/{{histories.result}}/">{{histories.result}}</a>
+            </div>
+            {% endfor %}
+            <div class="show-all-history">
+                <h4 onclick="showAllHistory()">Show all</h4>
+            </div>
+            <div class="show-less-history">
+                <h4 onclick="showLessHistory()">Show less</h4>
+            </div>
             {% else %}
-                <p style="color: white; text-align:center; ">Please Log In to see Your history</p>
+            <p style="color: white; text-align:center; ">Prevoius predictions not found.</p>
+            {% endif %}
+            {% else %}
+            <p style="color: white; text-align:center; ">Please Log In to see Your history.</p>
             {% endif %}
         </div>
-        
+
     </div>
-    
+
 </div>
 
 
@@ -183,8 +187,8 @@
 
 
 {% block script %}
-    <script src="{% static 'js/custom-file-input.js' %}"></script>
-    <script src="{% static 'js/index.js' %}"></script>
-    <script src="{% static 'js/particles.js' %}"></script>
-    <script src="{% static 'js/app.js' %}"></script>
+<script src="{% static 'js/custom-file-input.js' %}"></script>
+<script src="{% static 'js/index.js' %}"></script>
+<script src="{% static 'js/particles.js' %}"></script>
+<script src="{% static 'js/app.js' %}"></script>
 {% endblock %}

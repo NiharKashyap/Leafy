@@ -442,7 +442,7 @@
     }
 
     .inputfile-2 + label {
-        width: 50%;
+        width: 60% !important;
         font-size: 12px !important;
         text-align: center;
         color: rgba(250, 250, 250, 1);
