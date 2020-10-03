@@ -99,13 +99,13 @@ html {
     margin-left: 30px;
 }
 
-.instructions ul .danger i {
+/* .instructions ul .danger i {
     color: #d50000;
     position: absolute;
     top: 8px;
     left: -30px;
     font-size: 20px;
-}
+} */
 
 .instructions ul li {
     padding: 5px 0px;
