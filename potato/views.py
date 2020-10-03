@@ -1,6 +1,7 @@
 from django.http import HttpResponse, Http404
 from django.conf import settings
 from django.core.exceptions import PermissionDenied
+#from Creators import Nihar Kashyap, Prachurjya Gogoi
 
 import smtplib
 from smtplib import SMTPException
@@ -35,8 +36,8 @@ from django.core.paginator import Paginator
 
 
 ### Machile Learning Imports ###
-from keras.preprocessing import image
-from keras.models import load_model
+#from keras.preprocessing import image
+#from keras.models import load_model
 from removebg import RemoveBg
 import random
 import string
@@ -46,21 +47,22 @@ import base64
 ### Machile Learning Imports ###
 
 
-# graph = tf.get_default_graph()
+#graph = tf.get_default_graph()
 
-# path = os.path.join(settings.MODELS, 'Pomatochesquacorn2.h5')
-path = os.path.join(settings.MODELS, 'keras_model.h5')
-Detector = load_model(path)
+#path = os.path.join(settings.MODELS, 'Pomatochesquacorn2.h5')
+path = os.path.join(settings.MODELS, 'best_model.h5')
+Detector = tf.keras.models.load_model(path)
 
 
 def prediict(img):
 
-    img = image.load_img(img, target_size=(224, 224))
+    img = tf.keras.preprocessing.image.load_img(img, target_size=(224, 224))
     # Image data encoded as integers in the 0–255 range
-    img_tensor = image.img_to_array(img)
+    img_tensor = tf.keras.preprocessing.image.img_to_array(img)
     img_tensor = np.expand_dims(img_tensor, axis=0)
-    # with graph.as_default():
+    #with graph.as_default():
     prediction = Detector.predict(img_tensor)
+    print(prediction)
     classes = ["Cherry Powdery mildew", "Corn common rust", "Corn healthy", "Corn Northern leaf blight", "Potato Early Blight", "Potato Healthy",
                "Potato Late blight", "Squash Powdery mildew", "Tomato Healthy", "Tomato Late blight", "Tomato Yellow Leaf Curl Virus", "Undefined"]
 
@@ -151,7 +153,9 @@ def index(request):
         for i in range(stringLength):
             name = name + random.choice(letters)
         file_name = name + '.png'
-        rmbg = RemoveBg("nhahVkAMQTPACG5Z8NiEuWxs", "error.log")
+        rmbg = RemoveBg("qLr2rBHAaemsVF2YN5SbxKuq", "error.log") #nihar1kashyap7
+        #rmbg = RemoveBg("TSLJyBXT5SU6VLjwyvMXbQpq", "error.log") #prachurjya
+        #rmbg = RemoveBg("nhahVkAMQTPACG5Z8NiEuWxs", "error.log") #niharkashap17
 
         # I Put this part in try-catch because the api may fail if 50 requests over or image has no background
         try:
