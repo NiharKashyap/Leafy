@@ -532,3 +532,12 @@ Traceback (most recent call last):
     self.model._meta.object_name
 potato.models.UserProfile.DoesNotExist: UserProfile matching query does not exist.
 INFO:django.utils.autoreload:C:\Users\Lenovo\PycharmProjects\Leafy\potato\views.py changed, reloading.
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+INFO:django.utils.autoreload:E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py changed, reloading.
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+ERROR:root:Unable to save no-bg.png due to invalid value for parameter 'size'
+INFO:django.utils.autoreload:E:\code\6th Sem\nihar 6th sem\Leafy\potato\views.py changed, reloading.

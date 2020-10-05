@@ -50,7 +50,7 @@ import base64
 #graph = tf.get_default_graph()
 
 #path = os.path.join(settings.MODELS, 'Pomatochesquacorn2.h5')
-path = os.path.join(settings.MODELS, 'keras_model.h5')
+path = os.path.join(settings.MODELS, 'best_model.h5')
 Detector = tf.keras.models.load_model(path)
 
 
@@ -153,9 +153,9 @@ def index(request):
         for i in range(stringLength):
             name = name + random.choice(letters)
         file_name = name + '.png'
-        rmbg = RemoveBg("qLr2rBHAaemsVF2YN5SbxKuq",
-                        "error.log")  # nihar1kashyap7
-        # rmbg = RemoveBg("TSLJyBXT5SU6VLjwyvMXbQpq", "error.log") #prachurjya
+        # rmbg = RemoveBg("qLr2rBHAaemsVF2YN5SbxKuq",
+        #                 "error.log")  # nihar1kashyap7
+        rmbg = RemoveBg("TSLJyBXT5SU6VLjwyvMXbQpq", "error.log")  # prachurjya
         # rmbg = RemoveBg("nhahVkAMQTPACG5Z8NiEuWxs", "error.log") #niharkashap17
 
         # I Put this part in try-catch because the api may fail if 50 requests over or image has no background
@@ -537,9 +537,9 @@ def sendMail(request):
     bod = request.POST.get('body')
     try:
         send_mail(sub, bod, settings.EMAIL_HOST_USER,
-                  [mail], fail_silently=True)
+                  [mail], fail_silently=False)
     except:
-        return render(context, "invalid_mail.html")
+        return render(request, "invalid_mail.html")
 
     return HttpResponse('')
 

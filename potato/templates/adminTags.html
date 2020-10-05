@@ -23,7 +23,7 @@
 
                 <form class="d-flex justify-content-center" autocomplete="off">
                     <!-- Default input -->
-                    <input id="usersearch" type="search" placeholder="Type your query" aria-label="Search"
+                    <input id="usersearch" type="search" placeholder="Search..." aria-label="Search"
                         class="form-control">
 
 
@@ -41,11 +41,11 @@
         <a class="btn btn-primary" role="button" onclick="tag()"><i class="fas fa-tag mr-2"></i>Add tag</a>
     </div>
     <div class="tag-form container">
-        <form action="{% url 'addTag' %}" method="POST" autocomplete="off">
+        <form action="{% url 'addTag' %}" method="POST" autocomplete="off" onsubmit="tagVal()">
             {% csrf_token %}
             <div class="md-form d-flex">
-                <input type="text" id="form1" name="tag" class="form-control">
-                <label for="form1">Type a tag</label>
+                <input type="text" id="form1" name="tag" class="form-control" required>
+                <label for="form1">Enter a new tag</label>
                 <button type="submit" class="btn btn-info"><i class="fas fa-plus"></i></button>
             </div>
         </form>
@@ -63,7 +63,7 @@
                 <tr>
                     <td class="align-middle">{{t.tag}}</td>
                     <td class="align-middle"><a href="{% url 'editTag' t.id %}" class="btn btn-warning btn-sm">
-                        <i class="fas fa-edit mr-1"></i>Edit</a></td>
+                            <i class="fas fa-edit mr-1"></i>Edit</a></td>
                     <td class="align-middle"><a href="{% url 'delTag' t.id %}" class="btn btn-danger btn-sm">
                             <i class="fas fa-trash-alt mr-1"></i>Delete</a></td>
                 </tr>
@@ -73,6 +73,19 @@
 
     </div>
 </main>
+
+<!-- <script>
+    function tagVal() {
+        let tag = document.getElementById('form1').value.trim();
+        if (tag == '') {
+            swal('Empty fields', 'Fields cannot be empty', 'error');
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+</script> -->
 
 
 {% endblock %}

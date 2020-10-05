@@ -15,48 +15,48 @@
 			<h1>Profile image</h1>
 			<div class="img">
 				{% for img in avatar %}
-					<img src="{{img.avatar.url}}" alt text="hist">
+				<img src="{{img.avatar.url}}" alt text="hist">
 				{% endfor %}
 			</div>
 			<a href="{% url 'editProfile' %}">Edit Profile<i class="fas fa-user-edit"></i></a>
 		</div>
 		<div class="profile-info">
 			{% for u in ulog %}
-				<div class="username">
-					<h2><i class="fas fa-user"></i>Username</h2>
-					<p>:</p>
-					<h3>{{u.username}}</h3>
-				</div>
-				<div class="fname">
-					<h2><i class="far fa-user"></i>First Name</h2>
-					<p>:</p>
-					<h3>{{u.first_name}}</h3>
-				</div>
-				<div class="lname">
-					<h2><i class="far fa-user"></i>Last Name</h2>
-					<p>:</p>
-					<h3>{{u.last_name}}</h3>
-				</div>
-				<div class="email">
-					<h2><i class="fas fa-envelope"></i>Email ID</h2>
-					<p>:</p>
-					<h3> {{u.email}}</h3>
-				</div>
-				<div class="email">
-					<h2><i class="far fa-calendar-plus"></i>Date Joined</h2>
-					<p>:</p>
-					<h3> {{u.date_joined}}</h3>
-				</div>
+			<div class="username">
+				<h2><i class="fas fa-user"></i>Username</h2>
+				<p>:</p>
+				<h3>{{u.username}}</h3>
+			</div>
+			<div class="fname">
+				<h2><i class="far fa-user"></i>First Name</h2>
+				<p>:</p>
+				<h3>{{u.first_name}}</h3>
+			</div>
+			<div class="lname">
+				<h2><i class="far fa-user"></i>Last Name</h2>
+				<p>:</p>
+				<h3>{{u.last_name}}</h3>
+			</div>
+			<div class="email">
+				<h2><i class="fas fa-envelope"></i>Email ID</h2>
+				<p>:</p>
+				<h3> {{u.email}}</h3>
+			</div>
+			<div class="email">
+				<h2><i class="far fa-calendar-plus"></i>Date Joined</h2>
+				<p>:</p>
+				<h3> {{u.date_joined}}</h3>
+			</div>
 			{% endfor %}
 			<div class="email">
 				<h2><i class="far fa-check-circle mr-1"></i>Expert</h2>
 				<p>:</p>
 				{% for u in avatar %}
-					{% if u.is_expert %}
-						<h3 style="color: #76ff03; font-weight:bold;">Yes</h3>
-					{% else %}
-						<h3 style="color: #f44336; font-weight:bold;">No</h3>
-					{% endif %}
+				{% if u.is_expert %}
+				<h3 style="color: #76ff03;">Yes</h3>
+				{% else %}
+				<h3 style="color: #f44336;">No</h3>
+				{% endif %}
 				{% endfor %}
 			</div>
 			<div class="question-posted">
@@ -78,16 +78,18 @@
 			<div class="table-wrapper">
 				<table id="profile-q">
 					<tr>
-					  <th>Question Titles</th>
-					  <th>Posted On</th>
-					  <th>Action</th>
+						<th>Question Titles</th>
+						<th>Posted On</th>
+						<th>Action</th>
 					</tr>
 					{% for q in questions %}
-						<tr>
-							<td><div class="ques-body">{{ q.title }}</div></td>
-							<td>{{ q.datetime }}</td>
-							<td><a href="{% url 'getans' q.id %}"><i class="fas fa-eye"></i></a></td>
-						</tr>
+					<tr>
+						<td>
+							<div class="ques-body">{{ q.title }}</div>
+						</td>
+						<td>{{ q.datetime }}</td>
+						<td><a href="{% url 'getans' q.id %}"><i class="fas fa-eye"></i></a></td>
+					</tr>
 					{% endfor %}
 				</table>
 			</div>
@@ -103,12 +105,14 @@
 						<th>Action</th>
 					</tr>
 					{% for a in answers %}
-						<tr>
-							<td>{{a.qid.title}}</td>
-							<td><div class="ans-body">{{ a.ans_body | safe }}</div></td>
-							<td>{{ a.datetime }}</td>
-							<td><a href="{% url 'edit-an' a.id %}"><i class="fas fa-edit"></i></a></td>
-						</tr>
+					<tr>
+						<td>{{a.qid.title}}</td>
+						<td>
+							<div class="ans-body">{{ a.ans_body | safe }}</div>
+						</td>
+						<td>{{ a.datetime }}</td>
+						<td><a href="{% url 'edit-an' a.id %}"><i class="fas fa-edit"></i></a></td>
+					</tr>
 					{% endfor %}
 				</table>
 			</div>
@@ -116,6 +120,6 @@
 	</div>
 </div>
 
-	
+
 
 {% endblock %}
