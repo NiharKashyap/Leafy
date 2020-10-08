@@ -38,8 +38,8 @@
 				<i class="fas fa-times"></i>
 			</button>
 
-			<form method="POST" class="contact100-form validate-form" autocomplete="off"
-				action="{% url 'user-feedback' %}">
+			<form method="POST" class="contact100-form validate-form" autocomplete="off" action="{% url 'user-feedback' %}"
+				onsubmit="disbut()">
 				{% csrf_token %}
 				<span class="contact100-form-title">
 					Say Something
@@ -58,7 +58,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button type="submit" class="contact100-form-btn">
+					<button type="submit" class="contact100-form-btn" id="subbtn">
 						<span>
 							Submit
 						</span>
@@ -77,6 +77,17 @@
 
 
 	<div id="dropDownSelect1"></div>
+
+	<script>
+		function disbut() {
+			if (document.getElementById('uname').value.trim() === '' || document.getElementById('pass').value.trim() === '') {
+				return;
+			}
+			else {
+				document.getElementById('subbtn').disabled = true;
+			}
+		}
+	</script>
 
 	<!--===============================================================================================-->
 	<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
