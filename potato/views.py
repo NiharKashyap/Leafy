@@ -106,6 +106,7 @@ def feedback(request):
 def chat(request):
     DIALOGFLOW_PROJECT_ID = 'chatbot-kovqhd'
     DIALOGFLOW_LANGUAGE_CODE = 'en-US'
+    #The application credentials need to be made and added here
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = os.path.join(
         settings.BASE_DIR, 'chatbot-kovqhd-787be5a40d48.json')
     SESSION_ID = 'abcd12'
